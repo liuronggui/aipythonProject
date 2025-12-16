@@ -75,4 +75,4 @@ schedule.every(1).minutes.do(send_mail)
 if __name__ == '__main__':
     while True:
         schedule.run_pending()
-        time.sleep(3)
+        time.sleep(5)
