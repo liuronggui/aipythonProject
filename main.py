@@ -106,4 +106,4 @@ if __name__ == '__main__':
     print(f"已启动：每天 {send_time} 定时发送邮件（本机时间）。按 Ctrl+C 退出。")
     while True:
         schedule.run_pending()
-        time.sleep(1)
+        time.sleep(2)
